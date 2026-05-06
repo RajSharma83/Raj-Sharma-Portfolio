@@ -4,11 +4,10 @@
     const navMenu = document.querySelector('.navbar ul');
 
     hamburger.addEventListener('click', (e) => {
-        e.stopPropagation(); // Prevent click from propagating to document
+        e.stopPropagation(); 
         navMenu.classList.toggle('active');
         hamburger.textContent = navMenu.classList.contains('active') ? '✕' : '☰';
 
-        // Auto-close menu after 5 seconds if opened
         if (navMenu.classList.contains('active')) {
             setTimeout(() => {
                 navMenu.classList.remove('active');
@@ -134,7 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if(entry.isIntersecting){
-        // Animate elements in
+      
         bulb.classList.add("animate-from-top");
         monitor.classList.add("animate-monitor-fade-in");
 
@@ -299,7 +298,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (entry.isIntersecting) {
           entry.target.classList.add("animate");
         } else {
-          entry.target.classList.remove("animate"); // for scroll-back animation
+          entry.target.classList.remove("animate"); 
         }
       });
     }, observerOptions);
