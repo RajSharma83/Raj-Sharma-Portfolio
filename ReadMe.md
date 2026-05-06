@@ -29,27 +29,27 @@ I’m **Raj Sharma**, a frontend developer who loves building clean, fast, and u
 
 ### 🏠 Homepage
 
-![Homepage](asset/screenshot/homepage.png)
+![Homepage](assest/screenshot/homepage.png)
 
 ### 👤 About Section
 
-![Projects](asset/screenshot/About.png)
+![Projects](assest/screenshot/About.png)
 
 ### 👨‍💻 Projects Section
 
-![Projects](asset/screenshot/Project.png)
+![Projects](assest/screenshot/Project.png)
 
 ### 🛠️ Services Section
 
-![Services](asset/screenshot/service.png)
+![Services](assest/screenshot/service.png)
 
 ### 📇 Skills Section
 
-![Skills](asset/screenshot/skills.png)
+![Skills](assest/screenshot/skills.png)
 
 ### 📬 Contact Section
 
-![Contact](asset/screenshot/contact.png)
+![Contact](assest/screenshot/contact.png)
 
 
 ---
